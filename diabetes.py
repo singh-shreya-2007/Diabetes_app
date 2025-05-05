@@ -29,7 +29,7 @@ model=joblib.load('diabetes.pkl')
 
 def main():
     # Set background image
-    set_bg("photos/diabetes.jpg")  # Change filename if needed
+    set_bg("https://sph.umich.edu/news/2022posts/images/diabetes-towfiqu-barbhuiya-ZJaK9jQXeDA-unsplash.jpg")  # Change filename if needed
 
     st.title("Check your diabeties ")
     st.subheader("Enter the following health details to check your diabeties")
